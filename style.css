@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Lora&display=swap');
+​
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #2E3F51;
+  font-family: 'Lora', serif;
+}
+.wrapper {
+  width: 100%;
+}
+​
+.header {
+  width: 100%;
+  background-color: #53BD9C;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  font-size: 4rem;
+  font-family: 'Barriecito', cursive;
+  margin-bottom: 2rem;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 59% 70%, 50% 100%, 39% 70%, 0 70%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 59% 70%, 50% 100%, 39% 70%, 0 70%);
+}
+​
+form {
+  margin: 0 auto;
+  border: 2px dashed #2E3F51;
+  width: 35%;
+  padding: 2rem;
+}
